@@ -202,7 +202,7 @@ header{
 
 
 .learn-more-section{
-    text-align: center;
+   
 }
 
 .learn-more-section-tiles{
@@ -210,36 +210,45 @@ header{
     margin: 0 auto;
 }
 
-.tiles-row1{
+.tiles-row1{ 
     width: 270px;
     display:block;
+    float: right;
+    position: relative;
+    left:33%;
 }
 
 .tiles-row2{
     width: 270px;
     display:block;
+    position: relative;
+    left: 33%;
 }
 
 .tile_1{
     float:left;
-    
+    margin: 25px;
 }
 
 .tile_2{
     float:left;
+    margin: 25px;
 }
 
 .tile_3{
-    float: right;
+   float: left;
+   margin: 25px;
 }
 
 .tile_4{
-    float: right;
+    float: left;
+    margin: 25px;
 }
 
 .tileimage{
     width:270px;
 }
+
 
 
 
