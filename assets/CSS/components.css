@@ -1,29 +1,28 @@
 .btn{
     font-size: 16px;
-    line-height: 42px;
+    line-height: 20px;
     display: inline-block;
-    padding: 0 24px;
-    border: solid 1px #EE693F;
+    padding: 12px;
+    border-radius: 2px;
     transition: all .3s ease-in;
-    border-radius: 5px;
+    text-align: center;
 }
 
-.btn:hover{
-    color: #fff;
-    background: #EE693F;
+.btn-white{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
 }
 
-.btn--solid{
-    background: #EE693F;
-    color: #fff;
+.btn-solid{
+    color: white;
+    border: 1px solid #EE693F;
+    background-color: #EE693F;
+    margin-bottom: 5px; 
 }
 
-.btn--white{
-    border-color: #fff;
-    color: #fff;
-}
-
-.btn--white:hover{
-    background-color: #fff;
-    color: #00974D;
+.btn-semi-solid{
+    color: #EE693F;
+    border: 1px solid #EE693F;
+    background-color: white;
 }

@@ -3,78 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/components.css">
-    <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="../assets/css/typography.css">
+    <link rel="stylesheet" href="../assets/CSS/components.css">
+    <link rel="stylesheet" href="../assets/CSS/normalize.css">
+    <link rel="stylesheet" href="../assets/CSS/typography.css">
+    <link rel="stylesheet" href="../assets/CSS/homepage.css">
     <link rel="stylesheet" href="../assets/css/layoutfloat.css">
-    <link rel="stylesheet" href="../assets/css/layouts-index.css">
+    <link rel="stylesheet" href="../assets/CSS/layout.css">
     <title>TNGS</title>
 </head>
 <body>
- 
-    <div class="container">
-        <header class="header clearfix">
-            <div class="info-header clearfix">
-                <div class="livechat"><a href="#" class="headerlink">Live Chat</a></div>
-                <div class="phone-number">Call: +256 414234567</div>
+    <!-- Header Starts Here-->
+    <header>
+        <ul class="contacts container">
+            <li>Call: +256 414 234567</li>
+            <li><a href="#" class="contacts-livechat">Live Chat</a></li>
+        </ul>
+    </header>
+    <!-- Header Ends Here-->
+        <section class="mainbanner">
+            <!-- Mainbanner menu Starts Here-->
+            <div class="mainbanner_bgimage">
+                <div class="bgcolor"></div>
             </div>
-        </header>
-        
-        <section class="topbanner clearfix">
-            <div class="logo-links clearfix">
-                <img src="../assets/Images/logo.png" alt="logo" class="logo">
-                <div class="links clearfix">
-                    <a href="#">Home</a>
-                    <a href="#">Learning</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Parents</a>
-                    <a href="#">News</a>
-                    <a href="#">Contact Us</a>
-                    <a href="#"><button class="btn-link">Admissions</button></a>
+            <nav class="mainbanner_menu clearfix container">
+                <a href="#"><img src="../assets/Images/logo.png" alt="logo" class="mainbanner-logo"></a>
+                <ul class="mainbanner_menu-links no-bullet container">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Learning</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Parents</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#" class="btn btn-white">Admissions</a></li>
+                </ul>
+            </nav>
+            <!-- Mainbanner menu Ends Here-->
+            <div class="mainbanner_message container">
+                <h1 class="mainbanner_message-header">An affordable high quality British Education now within reach</h1>
+                <a href="#" class="btn btn-solid">Keep On Moving</a>
+            </div>
+            <div class="container mainbanner_content">
+                <div class="clearfix schools">
+                    
+                    <div class="school preschool">
+                        <img src="../assets/Images/flag.png" alt="flag" class="preschool-img">
+                        <h3>Pre School</h3>
+                        <p>4-6 years old</p>
+                        <div class="preschool-info">
+                            <img src="../assets/Images/tick.png" alt="tick" class="preschool-tick">
+                            <aside class="preschool-content">The early years foundation stage (EYFS) is when children learn the most by being active.</aside>
+                        </div>
+                        <div class="seniorschool-info2">
+                            <img src="../assets/Images/tick.png" alt="tick" class="preschool-tick">
+                            <aside class="preschool-content">The early years foundation stage (EYFS) is when children learn the most by being active.</aside>
+                        </div>
+                        <a href="#" class="btn btn-solid">More Information</a>
+                    </div>
+
+
+                    <div class="school juniorschool">
+                        <img src="../assets/Images/bag.png" alt="flag" class="juniorschool-img">
+                        <h3>Junior School</h3>
+                         <p>6-10 years old</p>
+                         <div class="seniorschool-info">
+                            <img src="../assets/Images/tick.png" alt="tick" class="juniorschool-tick">
+                            <aside class="juniorschool-content">The early years foundation stage (EYFS) is when children learn the most by being active.</aside>
+                        </div>
+                        <div class="seniorschool-info2">
+                            <img src="../assets/Images/tick.png" alt="tick" class="juniorschool-tick">
+                            <aside class="juniorschool-content">The early years foundation stage (EYFS) is when children learn the most by being active.</aside>
+                        </div>
+                        <a href="#" class="btn btn-solid">More Information</a>
+                    </div>
+
+                    
+                    <div class="school seniorschool clearfix">
+                        <img src="../assets/Images/hat.png" alt="flag" class="seniorschool-img">
+                        <h3>Senior School</h3>
+                        <p>10-16 years old</p>
+                        <div class="seniorschool-info">
+                            <img src="../assets/Images/tick.png" alt="tick" class="seniorschool-tick">
+                            <aside class="seniorschool-content">The early years foundation stage (EYFS) is when children learn the most by being active.</aside>
+                        </div>
+                        <div class="seniorschool-info2">
+                            <img src="../assets/Images/tick.png" alt="tick" class="seniorschool-tick">
+                            <aside class="seniorschool-content">The early years foundation stage (EYFS) is when children learn the most by being active.</aside>
+                        </div>
+                        <a href="#" class="btn btn-solid">More Information</a>
+                    </div>
                 </div>
             </div>
-            <div class="bannerwords">
-                <h1 class="mainheader">An Affordable High Quality British Education Now within reach</h1>
-            <button class="btn">Keep On Moving</button>
-            </div>
-            <div class="schools">
-                <section class="schools clearfix">
-                    
-                    <section class="preschool">
-                        <img src="../assets/Images/flag.png" alt="flag" class="flag">
-                        <h1 class="schooltype">Pre School</h1>
-                            <p class="age">4-6 years old</p>
-                        <div class="schoolinfo">
-                            <img src="../assets/Images/tick.png" alt="tick">
-                            <p class="pitch">The early years foundation stage (EYFS) is when children learn the most by being active.</p>
-                        </div>
-                    </section>
-                    
-                    <section class="juniorschool">  
-                        <img src="../assets/Images/bag.png" alt="flag" class="flag">
-                        <h1 class="schooltype">Junior School</h1>
-                            <p class="age">4-6 years old</p>
-                        <div class="schoolinfo">
-                            <img src="../assets/Images/tick.png" alt="tick">
-                            <p class="pitch">The early years foundation stage (EYFS) is when children learn the most by being active.</p>
-                        </div>
-                    </section>
-                   
-                    <section class="seniorschool">
-                        <img src="../assets/Images/hat.png" alt="flag" class="flag">
-                        <h1 class="schooltype">Senior School</h1>
-                            <p class="age">4-6 years old</p>
-                        <div class="schoolinfo">
-                            <img src="../assets/Images/tick.png" alt="tick">
-                            <p class="pitch">The early years foundation stage (EYFS) is when children learn the most by being active.</p>
-                        </div>
-                    </section>
-                </section>
-            </div>
         </section>
-    </div>
+        
+        
+        <section class="learn-more-section container">
+            <h2>Learn More About the North Green School</h2>
+            <section class="learn-more-section-tiles clearfix container ">
+                <div class="tiles-row1 tile_1">
+                    <img src="../assets/Images/playing.png" alt="playing" >
+                    <h3>An affordable British International education</h3>
+                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis.</p>
+                </div>
+                <div class="tiles-row1 tile_2">
+                    <img src="../assets/Images/teaching.png" alt="playing" >
+                    <h3>An affordable British International education</h3>
+                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis.</p>
+                </div>
+                <br>
+                <div class="tiles-row2 tile_3">
+                    <img src="../assets/Images/reading.png" alt="playing" >
+                    <h3>An affordable British International education</h3>
+                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis.</p>
+                </div>
+                <div class="tiles-row2 tile_4">
+                    <img src="../assets/Images/playing.png" alt="playing" >
+                    <h3>An affordable British International education</h3>
+                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis.</p>
+                </div>
+            </section>
+        </section>
 </body>
 </html>
-
-</body>
-</html>
+   

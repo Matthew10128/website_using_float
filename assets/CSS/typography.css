@@ -1,21 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Paytone+One&display=swap');
 
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', "sans serif";
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 14px;
     line-height: 22px;
     color: #383838;
+    background-color: #E5E5E5;
 }
 
 h1,h2,h3{
-    font-family: -apple-system, BlinkMacSystemFont, 'Paytone One', "sans serif";
+    font-family: "Paytone One", Helvetica, sans-serif;
 }
 
+h1{
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  margin: 110px 0 65px;
+}
 
 h2{
-  font-size: 32px;
-  text-align: center;
+    font-size: 30px;
+    color: #383838;
+    text-align: center;
 }
 
 h3{
@@ -24,5 +32,5 @@ h3{
 
 a{
     text-decoration: none;
-    color: #EE693F
+    color: white;
 }

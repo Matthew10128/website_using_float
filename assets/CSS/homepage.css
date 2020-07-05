@@ -1,0 +1,248 @@
+
+
+.body{
+    background-color: grey;
+}
+
+/* Header Styles Start Here */
+
+header{
+    background-color: #00974D;
+}
+
+.contacts{
+    margin: 0;
+    color: white;
+    list-style: none;
+    text-align: right;
+    padding: 10px;
+}
+
+.contacts li{
+    padding: 5px 0 5px 30px;
+    display: inline-block;
+}
+
+.contacts-livechat{
+    text-decoration: underline;
+}
+
+/* Header Styles End Here */
+
+/* Mainbanner menu Styles start Here */
+
+.mainbanner{
+    position: relative;
+    min-height: 740px;
+}
+
+.mainbanner-logo{
+   width: 69px;
+   height: 87px;
+   display: block;
+}
+
+.mainbanner_menu-links{
+    text-align: right;
+    padding-top: 20px;
+}
+
+ .mainbanner_menu-links li{
+    display: inline-block;
+    text-align: right;
+    padding: 0 0 0 30px;
+ }
+ .mainbanner_menu-links a{
+     padding:10px;
+ }
+
+ .mainbanner_bgimage .bgcolor{
+     background-color: rgba(0, 151, 77, 0.75);
+     opacity: .7;
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     height: 650px;
+ }
+
+ .mainbanner_bgimage{
+     background: url("../Images/homepicture.png") no-repeat center top;
+     height: 700px;
+     position: absolute;
+     top:0;
+     left:0;
+     width: 100%;
+     z-index: -1;
+     clip-path: ellipse(70% 62% at 50% 30%);
+ }
+
+ .mainbanner_message{
+     text-align: center;
+ }
+
+ .mainbanner_message-header{
+     margin: 110px 0 65px;
+ }
+
+ .mainbanner_message a{
+     display: block;
+     margin: 0 auto;
+     max-width: 190px;
+     margin-bottom: 150px;
+
+ }
+
+ .mainbanner_content{
+ }
+
+ .schools-wrapper{
+     margin: 0 -12px;
+ }
+
+ .school{
+     background: white;
+     float: left;
+     width: calc(33.33% - 24px);
+     min-height: 300px;
+     margin: 0 12px;
+ }
+
+
+
+.preschool{
+    text-align: center;
+}
+.preschool-img{
+    margin: 30px 15px 30px;
+}
+
+.preschool-info{
+    margin-bottom:20px;
+}
+
+.preschool-info2{
+    margin-bottom:20px;
+}
+
+.preschool-tick{
+    position: relative;
+    float: left;
+    left: 5px;
+}
+
+.preschool-content{
+    position: relative;
+    left: 5px;
+
+}
+
+
+
+
+.juniorschool{
+    text-align: center;
+}
+.juniorschool-img{
+    margin: 30px 15px 30px;
+}
+.juniorschool-info{
+    margin-bottom:20px;
+}
+
+.juniorschool-info2{
+    margin-bottom:20px;
+}
+
+.juniorschool-tick{
+    position: relative;
+    float: left;
+    left: 5px;
+}
+
+.juniorschool-content{
+    position: relative;
+    left: 5px;
+
+}
+
+
+
+
+
+
+
+.seniorschool{
+    text-align: center;
+}
+.seniorschool-img{
+    margin: 30px 15px 30px;
+}
+
+.seniorschool-info{
+    margin-bottom:20px;
+}
+
+.seniorschool-info2{
+    margin-bottom:20px;
+}
+
+.seniorschool-tick{
+    position: relative;
+    float: left;
+    left: 5px;
+}
+
+.seniorschool-content{
+    position: relative;
+    left: 5px;
+
+}
+
+
+.learn-more-section{
+    text-align: center;
+}
+
+.learn-more-section-tiles{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.tiles-row1{
+    width: 270px;
+    display:block;
+}
+
+.tiles-row2{
+    width: 270px;
+    display:block;
+}
+
+.tile_1{
+    float:left;
+    
+}
+
+.tile_2{
+    float:left;
+}
+
+.tile_3{
+    float: right;
+}
+
+.tile_4{
+    float: right;
+}
+
+.tileimage{
+    width:270px;
+}
+
+
+
+
+
+ 
