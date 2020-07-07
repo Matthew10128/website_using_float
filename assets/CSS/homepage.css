@@ -201,53 +201,109 @@ header{
 }
 
 
-.learn-more-section{
-   
-}
-
-.learn-more-section-tiles{
-    display: inline-block;
+.middlesection{
     margin: 0 auto;
 }
 
-.tiles-row1{ 
-    width: 270px;
-    display:block;
-    float: right;
+.middlesection-tiles{
+    margin: 0 auto;
+}
+
+.tiles-row1{
+    margin: 0 auto;
+    display: inline-block;
     position: relative;
-    left:33%;
+    left: 50%;
 }
 
 .tiles-row2{
-    width: 270px;
-    display:block;
-    position: relative;
-    left: 33%;
-}
-
-.tile_1{
-    float:left;
-    margin: 25px;
-}
-
-.tile_2{
-    float:left;
-    margin: 25px;
-}
-
-.tile_3{
-   float: left;
-   margin: 25px;
-}
-
-.tile_4{
-    float: left;
-    margin: 25px;
-}
-
-.tileimage{
+    margin: 0 auto;
+    float:right;
     width:270px;
+    position: relative;
+    right:50%;
 }
+
+.tiles-reading{
+    width: 100%;
+}
+
+.reading-content{
+    float: right;
+}
+
+.footer{
+    clear: both;
+}
+
+.footer-header{
+    background-color: #00974D;
+    width:100%;
+    text-align: center;
+}
+
+.footer-header > h3{
+  color: white;
+  display: inline-block;
+}
+
+.middle-header-content{
+    margin: 0 30px 0;
+}
+
+.footer-content{
+    background: url("../Images/footerbg.png");
+}
+
+.footer-content-lists{
+    color: white;
+    padding: 70px;
+}
+.sitemap{
+    list-style: none;
+    float: left;
+    padding-right:100px;
+}
+
+.sitemap-header{
+    margin: 0 0 20px;
+}
+
+.learnings{
+    list-style: none;
+    float: left;
+    padding-right:30px;
+}
+
+.learnings-header{
+    margin: 0 0 20px;
+}
+
+.admissions{
+   float: left;
+   padding-right:30px;
+}
+
+.admissions-header{
+    margin: 0 0 20px;
+}
+
+.admissions-btn{
+    margin-top: 15px;
+}
+
+.contact{
+    float: left;
+    padding-right:30px;
+ }
+ 
+ .contact-header{
+     margin: 0 0 20px;
+ }
+ 
+ .contact-btn{
+     margin: 15px 0 15px;
+ }
 
 
 
