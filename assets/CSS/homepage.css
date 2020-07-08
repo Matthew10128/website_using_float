@@ -71,6 +71,7 @@ header{
 
  .mainbanner_bgimage{
      background: url("../Images/homepicture.png") no-repeat center top;
+     background-size: cover;
      height: 700px;
      position: absolute;
      top:0;
@@ -223,39 +224,27 @@ header{
 }
 
 .middlesection-row1{
-    float: left;
-    width:528px;
+    float:left;
+    width:527px;
 }
 
 /* Tile 1 styles start here */
 
 .tile_1{
     background-color: white;
-    margin-bottom: 24px;
+    height:285px;
+    margin-bottom:24px;
 }
 
-.tile_1  h3 , p , a {
-    width:50%;
-    margin: 5px;
+.tile_1-img{
+   float:left;
 }
-
-.tile_1 a{
-    width: auto;
-    margin-top: 28px;
-}
-
 
 .tile_1-content{
-    float:right;
     text-align: left;
-    margin-left: 18px;
-    width:246px;
-}
-
-
-
-.tile_1img{
-    float: left;
+    float:right;
+    width:249px;
+    padding:5px;
 }
 
 
@@ -264,71 +253,47 @@ header{
 
 
 /* Tile 2 styles start here */
+
 .tile_2{
     background-color: white;
+    height:285px;
 }
 
-.tile_2  h3 , p , a {
-    width:50%;
-    margin: 5px;
+.tile_2-img{
+   float:left;
 }
-
-.tile_2 a{
-    width: auto;
-    margin-top: 28px;
-}
-
 
 .tile_2-content{
     float:right;
     text-align: left;
-    margin-left: 18px;
-    width:246px;
-}
-
-
-
-.tile_2img{
-    float: left;
+    width:249px;
+    padding:5px;
 }
 
 /* Tile 2 styles end here */
 
-
 .middlesection-row2{
-    float: right;
-    width: 528px;
+    float:right;
+    width:527px;
 }
 
 /* Tile 3 styles start here */
 
 .tile_3{
     background-color: white;
+    height:285px;
     margin-bottom: 24px;
 }
 
-.tile_3  h3 , p , a {
-    width:50%;
-    margin: 5px;
+.tile_3-img{
+   float:left;
 }
-
-.tile_3 a{
-    width: auto;
-    margin-top: 28px;
-}
-
 
 .tile_3-content{
     float:right;
     text-align: left;
-    margin-left: 18px;
-    width:246px;
-}
-
-
-
-.tile_3img{
-    float: left;
+    width:249px;
+    padding:5px;
 }
 
 
@@ -336,36 +301,25 @@ header{
 
 
 /* Tile 4 styles start here */
+
 .tile_4{
     background-color: white;
-    height: 285px;
+    height:285px;
 }
 
-.tile_4  h3 , p , a {
-    width:50%;
-    margin: 5px;
+.tile_4-img{
+   float:left;
 }
-
-.tile_4 a{
-    width: auto;
-    margin-top: 28px;
-}
-
 
 .tile_4-content{
     float:right;
     text-align: left;
-    margin-left: 18px;
-    width:246px;
+    width:249px;
+    padding:5px;
 }
 
 
-
-.tile_4img{
-    float: left;
-}
-
-/* Tile 1 styles start here */
+/* Tile 4 styles end here */
 
 
 
