@@ -213,6 +213,7 @@ header{
 
 .middlesection-rows{
     width:1080px;
+    max-width:100%;
     margin: 0 auto;
     text-align: center;
     display: inline-block;
@@ -244,7 +245,7 @@ header{
     text-align: left;
     float:right;
     width:249px;
-    padding:5px;
+    padding: 5px 5px 5px 20px;
 }
 
 
@@ -267,7 +268,7 @@ header{
     float:right;
     text-align: left;
     width:249px;
-    padding:5px;
+    padding: 5px 5px 5px 20px;
 }
 
 /* Tile 2 styles end here */
@@ -293,7 +294,7 @@ header{
     float:right;
     text-align: left;
     width:249px;
-    padding:5px;
+    padding: 5px 5px 5px 20px;
 }
 
 
@@ -315,7 +316,7 @@ header{
     float:right;
     text-align: left;
     width:249px;
-    padding:5px;
+    padding: 5px 5px 5px 20px;
 }
 
 
