@@ -112,6 +112,7 @@ header{
      width: calc(33.33% - 24px);
      min-height: 300px;
      margin: 0 12px;
+     border-radius: 10px;
  }
 
 
@@ -248,6 +249,10 @@ header{
     padding: 5px 5px 5px 20px;
 }
 
+.tile_1-content > a{
+    margin-top: 15px;
+}
+
 
 /* Tile 1 styles end here */
 
@@ -269,6 +274,10 @@ header{
     text-align: left;
     width:249px;
     padding: 5px 5px 5px 20px;
+}
+
+.tile_2-content > a{
+    margin-top: 30px;
 }
 
 /* Tile 2 styles end here */
@@ -298,6 +307,10 @@ header{
 }
 
 
+.tile_3-content > a{
+    margin-top: 30px;
+}
+
 /* Tile 3 styles end here */
 
 
@@ -317,6 +330,11 @@ header{
     text-align: left;
     width:249px;
     padding: 5px 5px 5px 20px;
+}
+
+
+.tile_4-content > a{
+    margin-top: 54px;
 }
 
 
@@ -412,10 +430,3 @@ header{
  }
 
  /* Footer Styles end here */
-
-
-
-
-
-
- 
