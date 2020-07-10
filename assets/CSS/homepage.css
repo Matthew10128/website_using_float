@@ -13,7 +13,6 @@ header{
 }
 
 .contacts{
-    margin: 0;
     color: white;
     list-style: none;
     text-align: right;
@@ -113,96 +112,22 @@ header{
      min-height: 300px;
      margin: 0 12px;
      border-radius: 10px;
+     padding: 10px;
  }
 
+ .school{
+     text-align: center;
+ }
 
-
-.preschool{
-    text-align: center;
-}
-.preschool-img{
-    margin: 30px 15px 30px;
-}
-
-.preschool-info{
-    margin-bottom:20px;
+.school-content > li{
+    margin: 10px;
+    list-style-image: url("../Images/tick.png");
+    text-align: left;
 }
 
-.preschool-info2{
-    margin-bottom:20px;
-}
-
-.preschool-tick{
-    position: relative;
-    float: left;
-    left: 5px;
-}
-
-.preschool-content{
-    position: relative;
-    left: 5px;
-
-}
-
-
-
-.juniorschool{
-    text-align: center;
-}
-.juniorschool-img{
-    margin: 30px 15px 30px;
-}
-.juniorschool-info{
-    margin-bottom:20px;
-}
-
-.juniorschool-info2{
-    margin-bottom:20px;
-}
-
-.juniorschool-tick{
-    position: relative;
-    float: left;
-    left: 5px;
-}
-
-.juniorschool-content{
-    position: relative;
-    left: 5px;
-
-}
-
-
-
-
-
-
-
-.seniorschool{
-    text-align: center;
-}
-.seniorschool-img{
-    margin: 30px 15px 30px;
-}
-
-.seniorschool-info{
-    margin-bottom:20px;
-}
-
-.seniorschool-info2{
-    margin-bottom:20px;
-}
-
-.seniorschool-tick{
-    position: relative;
-    float: left;
-    left: 5px;
-}
-
-.seniorschool-content{
-    position: relative;
-    left: 5px;
-
+.school > p{
+    font-size: 16px;
+    color: grey;
 }
 
 /* School Info styles end here */
