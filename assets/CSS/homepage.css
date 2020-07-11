@@ -57,6 +57,12 @@ header{
      padding:10px;
  }
 
+ .mainbanner_menu-links a:hover{
+     color: #133525;
+     border-top: 2px solid #133525;
+     transition: all .1s ease-in .20s;
+ }
+
  .mainbanner_bgimage .bgcolor{
      background-color: rgba(0, 151, 77, 0.75);
      opacity: .7;
@@ -101,8 +107,8 @@ header{
 
  /* School Information styles start here */ 
 
- .schools-wrapper{
-     margin: 0 -12px;
+ .schools{
+     margin: 0 -15px;
  }
 
  .school{
@@ -155,124 +161,44 @@ header{
     width:527px;
 }
 
-/* Tile 1 styles start here */
-
-.tile_1{
-    background-color: white;
-    height:285px;
-    margin-bottom:24px;
-}
-
-.tile_1-img{
-   float:left;
-}
-
-.tile_1-content{
-    text-align: left;
-    float:right;
-    width:249px;
-    padding: 5px 5px 5px 20px;
-}
-
-.tile_1-content > a{
-    margin-top: 15px;
-}
-
-
-/* Tile 1 styles end here */
-
-
-
-/* Tile 2 styles start here */
-
-.tile_2{
-    background-color: white;
-    height:285px;
-}
-
-.tile_2-img{
-   float:left;
-}
-
-.tile_2-content{
-    float:right;
-    text-align: left;
-    width:249px;
-    padding: 5px 5px 5px 20px;
-}
-
-.tile_2-content > a{
-    margin-top: 30px;
-}
-
-/* Tile 2 styles end here */
-
 .middlesection-row2{
     float:right;
     width:527px;
 }
 
-/* Tile 3 styles start here */
+/* Tile Content Starts Here */
 
-.tile_3{
+.tiles{
     background-color: white;
     height:285px;
-    margin-bottom: 24px;
+    margin-bottom:24px;
 }
 
-.tile_3-img{
+.tiles-img{
    float:left;
 }
 
-.tile_3-content{
-    float:right;
+.tiles-content{
     text-align: left;
-    width:249px;
-    padding: 5px 5px 5px 20px;
-}
-
-
-.tile_3-content > a{
-    margin-top: 30px;
-}
-
-/* Tile 3 styles end here */
-
-
-/* Tile 4 styles start here */
-
-.tile_4{
-    background-color: white;
-    height:285px;
-}
-
-.tile_4-img{
-   float:left;
-}
-
-.tile_4-content{
     float:right;
-    text-align: left;
     width:249px;
-    padding: 5px 5px 5px 20px;
+    padding-left: 10px;
+}
+
+.tile-content > a{
+    margin-top: 15px;
 }
 
 
-.tile_4-content > a{
-    margin-top: 54px;
-}
-
-
-/* Tile 4 styles end here */
-
-
-
-/* Learn more section styles end here */
+/* Tile content ends here */
 
 
 
 
 
+
+
+/* Learn More Section Ends Here */
 
 
 
@@ -308,50 +234,25 @@ header{
     color: white;
     padding: 70px;
 }
+
+.footer-list{
+    list-style: none;
+    float: left;
+    padding-right:80px;
+}
+
 .sitemap{
     list-style: none;
     float: left;
-    padding-right:100px;
+    padding-right:130px;
 }
 
-.sitemap-header{
+.footer-list-header{
     margin: 0 0 20px;
 }
 
-.learnings{
-    list-style: none;
-    float: left;
-    padding-right:30px;
+.footer-btn{
+    margin: 15px 0 30px;
 }
-
-.learnings-header{
-    margin: 0 0 20px;
-}
-
-.admissions{
-   float: left;
-   padding-right:30px;
-}
-
-.admissions-header{
-    margin: 0 0 20px;
-}
-
-.admissions-btn{
-    margin-top: 15px;
-}
-
-.contact{
-    float: left;
-    padding-right:30px;
- }
- 
- .contact-header{
-     margin: 0 0 20px;
- }
- 
- .contact-btn{
-     margin: 15px 0 15px;
- }
 
  /* Footer Styles end here */

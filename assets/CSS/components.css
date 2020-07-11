@@ -15,6 +15,11 @@
     width: auto;
 }
 
+  .btn-white:hover{
+      background-color: white;
+      color: black;
+  }
+
 .btn-solid{
     color: white;
     border: 1px solid #EE693F;
@@ -22,8 +27,19 @@
     margin-bottom: 5px; 
 }
 
+  .btn-solid:hover{
+      color: #EE693F;
+      background-color: white;
+  }
+
 .btn-semi-solid{
     color: #EE693F;
     border: 1px solid #EE693F;
     background-color: white;
+    margin-top: 20px;
 }
+
+  .btn-semi-solid:hover{
+      color: white;
+      background-color: #EE693F;
+  }
