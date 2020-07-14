@@ -18,12 +18,14 @@ h1{
   color: #fff;
   font-size: 32px;
   margin: 110px 0 65px;
+  line-height: 30px;
 }
 
 h2{
     font-size: 30px;
     color: #383838;
     text-align: center;
+    line-height: 30px;
 }
 
 h3{

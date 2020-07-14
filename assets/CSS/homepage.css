@@ -50,8 +50,13 @@ header{
 
  .mainbanner_menu-links li{
     display: inline-block;
-    text-align: right;
+    text-align: left;
     padding: 0 0 0 30px;
+ }
+
+
+ .nav-toggle{
+     display:  none;
  }
  .mainbanner_menu-links a{
      padding:10px;
@@ -157,12 +162,12 @@ header{
 }
 
 .middlesection-row1{
-    float:left;
-    width:527px;
+    float: left;
+    width: 527px;
 }
 
 .middlesection-row2{
-    float:right;
+    float: right;
     width:527px;
 }
 
@@ -174,16 +179,69 @@ header{
     margin-bottom:24px;
 }
 
-.tiles-img{
-   float:left;
+.tiles-content-playing::before{
+    content: "";
+    position: absolute;
+    left:0;
+    z-index: -1;
+    height: 285px;
+    background-image: url("../Images/playing.png");
+    width: 278px;
 }
 
-.tiles-content{
+.tiles-content-playing{
+    padding-left: 297px;
     text-align: left;
-    float:right;
-    width:249px;
-    padding-left: 10px;
+    position: relative;
+    z-index: 1;
 }
+
+.tiles-content-playing > h3{
+    padding-top: 20px;
+}
+
+.tiles-content-teaching::before{
+    content: "";
+    position: absolute;
+    left:0;
+    z-index: -1;
+    height: 285px;
+    background-image: url("../Images/teaching.png");
+    width: 278px;
+}
+
+.tiles-content-teaching{
+    padding-left: 297px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.tiles-content-teaching > h3{
+    padding-top: 20px;
+}
+
+.tiles-content-reading::before{
+    content: "";
+    position: absolute;
+    left:0;
+    z-index: -1;
+    height: 285px;
+    background-image: url("../Images/reading.png");
+    width: 278px;
+}
+
+.tiles-content-reading{
+    padding-left: 297px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.tiles-content-reading > h3{
+    padding-top: 20px;
+}
+
 
 .tile-content > a{
     margin-top: 15px;
@@ -247,6 +305,19 @@ header{
     padding-right:130px;
 }
 
+.learnings{
+    padding-right: 20px;
+}
+
+
+.admissions{
+    padding-right:40px;
+}
+
+.contact{
+    padding-left: 0;
+    padding-right: 0;
+}
 .footer-list-header{
     margin: 0 0 20px;
 }
@@ -256,3 +327,219 @@ header{
 }
 
  /* Footer Styles end here */
+
+
+/* Media Styles Start Here */
+
+
+
+
+/* Media Styles for mobile Start Here */
+
+  @media screen and (max-width: 700px){
+      .container{
+          width: auto;
+          padding: 15px;
+      }
+
+      .mainbanner_menu-links{
+          display: none;
+          position: absolute;
+          top: 50px;
+          right: 5px;
+      }
+
+      .mainbanner_menu-links > li{
+             display: block;
+             padding-top: 20px;
+             border-bottom: 1px solid #FFFFFF;
+      }
+
+
+      .mainbanner_menu-links .btn{
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        left:-15px;
+     }
+    
+
+
+      .nav-toggle{
+        display: none;
+    }
+    
+    
+    .nav-toggle:checked ~ ul{
+        display: block;
+        background-color: #00974D;
+    }
+    
+    .nav-toggle-label{
+        position: absolute;
+        top:15px;
+        right:15px;
+        padding:10px;
+    }
+    
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after{
+        display: block;
+        background: white;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+    }
+    
+    
+    
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after{
+        content: "";
+        position: absolute;
+    }
+    
+    
+    .nav-toggle-label span::before{
+        bottom:7px;
+    }
+    
+    .nav-toggle-label span::after{
+        top:7px;
+    }
+
+
+    .mainbanner_message a{
+        margin-bottom: 20px;
+    }
+
+
+      .preschool{
+         width: 75%;
+         position: relative;
+         left: 55px;
+         margin-top: -15px;
+      }
+      
+      .juniorschool{
+          display: none;    
+      }
+
+      .seniorschool{
+          display: none;
+      }
+
+
+      .middlesecion{
+          max-width: 100%;
+      }
+
+      .middlesection-row1{
+          float:none;
+          max-width: 100%;
+      }
+
+      .middlesection-row2{
+        float:none;
+        max-width: 100%;
+    }
+
+    .tiles-content-playing{
+        padding-left:132px;
+    }
+
+    .tiles-content-playing > a{
+        position: relative;
+        bottom: 15px;
+    }
+
+    .tiles-content-playing::before{
+           width: 118px;
+    }
+
+    .tiles-content-reading{
+        padding-left:132px;
+    }
+
+
+    .tiles-content-reading::before{
+        width: 118px;
+ }
+
+ .tiles-content-teaching{
+    padding-left:132px;
+}
+
+
+   .tiles-content-teaching::before{
+    width: 118px;
+ }
+
+
+
+
+
+  .sitemap{
+      display: none;
+  }
+
+  .learnings{
+      display: none;
+  }
+
+  .admissions{
+      border-bottom: 1px solid #FFFFFF;
+      padding-left: 0;
+  }
+
+  .contact{
+      padding-top: 20px;
+  }
+
+  }
+
+
+  /* Media Styles for mobile End here */
+
+
+
+    /* Media Styles for desktop start here */
+
+
+
+  @media screen and (min-width: 701px) and (max-width:1055px){
+      .mainbanner_menu-links{
+          display: inline-block;
+      }
+      .mainbanner_menu-links > li{
+         padding: 0;
+         text-align: left;
+      }
+
+      .middlesection-row2{
+          float:left;
+          width:75%;
+      }
+
+      .middlesection-row1{
+          width:75%;
+      }
+
+
+      .learnings{
+          padding-bottom: 20px;
+          padding-left: 2px;
+      }
+
+      .admissions{
+          padding-right: 17px;
+      }
+
+  }
+
+
+  /* Media Styles for desktop end here */
+
+/* Media Styles End here */
