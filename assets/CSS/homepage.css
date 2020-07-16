@@ -141,6 +141,10 @@ header{
     color: grey;
 }
 
+.school > a{
+    margin: 47px 0 27px ;
+}
+
 /* School Info styles end here */
 
 
@@ -278,6 +282,13 @@ header{
 .footer-header > h3{
   color: white;
   display: inline-block;
+  padding: 35px 4px;
+}
+
+.footer-header-seperator{
+    padding: 0 0 0 30px;
+    opacity: 0.75;
+    
 }
 
 .middle-header-content{
@@ -290,7 +301,9 @@ header{
 
 .footer-content-lists{
     color: white;
-    padding: 70px;
+    padding: 70px 0;
+    position: relative;
+    right: 35px;
 }
 
 .footer-list{
@@ -306,12 +319,12 @@ header{
 }
 
 .learnings{
-    padding-right: 20px;
+    padding-right: 60px;
 }
 
 
 .admissions{
-    padding-right:40px;
+    padding-right:60px;
 }
 
 .contact{
@@ -321,6 +334,7 @@ header{
 .footer-list-header{
     margin: 0 0 20px;
 }
+
 
 .footer-btn{
     margin: 15px 0 30px;
@@ -479,7 +493,9 @@ header{
 
 
 
-
+ .footer-content-lists{
+    position: static;
+ }
 
   .sitemap{
       display: none;
@@ -492,10 +508,12 @@ header{
   .admissions{
       border-bottom: 1px solid #FFFFFF;
       padding-left: 0;
+      width: 100%;
   }
 
   .contact{
       padding-top: 20px;
+
   }
 
   }
@@ -528,13 +546,21 @@ header{
       }
 
 
+      .contact{
+          display: block; 
+          position: absolute;
+          right: 0;
+      }
+
+
       .learnings{
           padding-bottom: 20px;
           padding-left: 2px;
+          padding-right: 0px;
       }
 
       .admissions{
-          padding-right: 17px;
+          margin-right: 30px;
       }
 
   }
