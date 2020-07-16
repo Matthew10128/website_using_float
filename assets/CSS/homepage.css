@@ -113,7 +113,7 @@ header{
  /* School Information styles start here */ 
 
  .schools{
-     margin: 0 -15px;
+     margin: 0 -12px;
  }
 
  .school{
@@ -302,8 +302,11 @@ header{
 .footer-content-lists{
     color: white;
     padding: 70px 0;
+<<<<<<< HEAD
     position: relative;
     right: 35px;
+=======
+>>>>>>> 278d4f0693b901ebd1056011c65731238daf049f
 }
 
 .footer-list{
