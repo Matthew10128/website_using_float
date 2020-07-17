@@ -37,10 +37,14 @@ header{
     min-height: 740px;
 }
 
+.mainbanner_menu {
+    padding-top: 5px;
+}
+
 .mainbanner-logo{
+   display: block;
    width: 69px;
    height: 87px;
-   display: block;
 }
 
 .mainbanner_menu-links{
@@ -60,17 +64,17 @@ header{
  }
  .mainbanner_menu-links a{
      padding:10px;
+     transition: all .1s ease-in;
+     border-top: 2px solid transparent ;
  }
 
  .mainbanner_menu-links a:hover{
      color: #133525;
-     border-top: 2px solid #133525;
-     transition: all .1s ease-in .20s;
+     border-top-color: #133525;
  }
 
  .mainbanner_bgimage .bgcolor{
      background-color: rgba(0, 151, 77, 0.75);
-     opacity: .7;
      position: absolute;
      top: 0;
      left: 0;
@@ -96,7 +100,7 @@ header{
  }
 
  .mainbanner_message-header{
-     margin: 110px 0 65px;
+     margin: 110px 0 75px;
  }
 
  .mainbanner_message a{
@@ -128,6 +132,7 @@ header{
 
  .school{
      text-align: center;
+     padding-top: 32px;
  }
 
 .school-content > li{
@@ -181,6 +186,7 @@ header{
     background-color: white;
     height:285px;
     margin-bottom:24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .2);
 }
 
 .tiles-content-playing::before{
@@ -204,6 +210,11 @@ header{
     padding-top: 20px;
 }
 
+
+.tiles-content-playing> a{
+    margin-top: 16px;
+}
+
 .tiles-content-teaching::before{
     content: "";
     position: absolute;
@@ -225,6 +236,10 @@ header{
     padding-top: 20px;
 }
 
+.tiles-content-teaching > a{
+    margin-top: 32px;
+}
+
 .tiles-content-reading::before{
     content: "";
     position: absolute;
@@ -244,6 +259,38 @@ header{
 
 .tiles-content-reading > h3{
     padding-top: 20px;
+}
+
+
+.tiles-content-reading > a{
+    margin-top: 32px;
+}
+
+
+.tiles-content-prospectus::before{
+    content: "";
+    position: absolute;
+    left:0;
+    z-index: -1;
+    height: 285px;
+    background-image: url("../Images/playing.png");
+    width: 278px;
+}
+
+.tiles-content-prospectus{
+    padding-left: 297px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.tiles-content-prospectus > h3{
+    padding-top: 20px;
+}
+
+
+.tiles-content-prospectus> a{
+    margin-top: 50px;
 }
 
 
@@ -275,22 +322,23 @@ header{
 
 .footer-header{
     background-color: #00974D;
-    width:100%;
     text-align: center;
+    padding: 25px 0;
 }
 
 .footer-header > h3{
   color: white;
+  margin: 0;
+  line-height: 15px;
   display: inline-block;
-  padding: 35px 4px;
+  padding: 35px 32px;
+  border-right: 2px solid #A1CEB8;
 }
 
-.footer-header-seperator{
-    padding: 0 0 0 30px;
-    opacity: 0.75;
-    
-}
 
+.footer-header > h3:last-child{
+    border-right: none;
+}
 .middle-header-content{
     margin: 0 30px 0;
 }
@@ -301,47 +349,57 @@ header{
 
 .footer-content-lists{
     color: white;
-    padding: 70px 0;
-<<<<<<< HEAD
-    position: relative;
-    right: 35px;
-=======
->>>>>>> 278d4f0693b901ebd1056011c65731238daf049f
+    padding: 70px 19px;
+    font-size: 1.15em;
+    line-height: 2em;
+    margin: 0 -12px;
 }
 
-.footer-list{
-    list-style: none;
+.footer-content-lists > div{
     float: left;
-    padding-right:80px;
-}
-
-.sitemap{
-    list-style: none;
-    float: left;
-    padding-right:130px;
-}
-
-.learnings{
-    padding-right: 60px;
+    width: 25%;
+    padding: 0 12px;
 }
 
 
-.admissions{
-    padding-right:60px;
-}
-
-.contact{
-    padding-left: 0;
-    padding-right: 0;
-}
-.footer-list-header{
-    margin: 0 0 20px;
+.footer-content-lists h4{
+    margin: 0 0 30px;
+    text-transform: uppercase;
 }
 
 
-.footer-btn{
-    margin: 15px 0 30px;
+.footer-content-lists ul{
+    margin: 0;
+    padding: 0;
 }
+
+
+.footer-content-lists .btn{
+     margin-top: 30px;
+     padding: 10px 20px;
+}
+
+.social-icons{
+    margin-top: 30px;
+}
+
+.social-icons a{
+    display: inline-block;
+    margin-right: 15px;
+    width: 36px;
+    height: 36px;
+    background: url("../Images/facebook.png"); 
+}
+
+
+.social-icons a.twitter{
+    background: url("../Images/twitter.png"); 
+}
+
+.social-icons a.youtube{
+    background: url("../Images/youtube.png"); 
+}
+
 
  /* Footer Styles end here */
 
@@ -495,9 +553,30 @@ header{
  }
 
 
+ .tiles-content-prospectus{
+    padding-left:132px;
+}
 
- .footer-content-lists{
-    position: static;
+.tiles-content-prospectus > a{
+    position: relative;
+    bottom: 15px;
+}
+
+.tiles-content-prospectus::before{
+       width: 118px;
+}
+
+
+
+
+ .footer-content-lists > div{
+    float: none;
+    width: 100%
+ }
+
+
+ .footer-content-lists > div:last-child{
+     margin-top: 40px
  }
 
   .sitemap{
@@ -515,8 +594,11 @@ header{
   }
 
   .contact{
-      padding-top: 20px;
+      margin-top: 20px;
+  }
 
+  .social-icons{
+      display: none;
   }
 
   }
@@ -547,25 +629,44 @@ header{
       .middlesection-row1{
           width:75%;
       }
-
-
-      .contact{
-          display: block; 
-          position: absolute;
-          right: 0;
+      
+      .footer-content-lists{
+          padding-left: 19px;
       }
 
-
+      .footer-content-lists > div{
+        float: none;
+        width: 100%
+     }
+    
+    
+     .footer-content-lists > div:last-child{
+         margin-top: 40px
+     }
+    
+      .sitemap{
+          display: none;
+      }
+    
       .learnings{
-          padding-bottom: 20px;
-          padding-left: 2px;
-          padding-right: 0px;
+          width: 50%;
+          border-bottom: 1px solid #FFFFFF;
       }
-
+    
       .admissions{
-          margin-right: 30px;
+          margin-top: 40px;
+          border-bottom: 1px solid #FFFFFF;
+          width: 50%;
       }
-
+    
+      .contact{
+          margin-top: 20px; 
+          width: 50%;
+      }
+    
+      .social-icons{
+          display: none;
+      }
   }
 
 
