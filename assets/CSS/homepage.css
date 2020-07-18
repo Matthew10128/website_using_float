@@ -360,6 +360,15 @@ header{
     padding: 0 12px;
 }
 
+.footer-content-lists > div > ul > li > a{
+    transition: all .1s ease-in;
+}
+
+
+.footer-content-lists > div > ul > li > a:hover{
+    color: #133525;
+}
+
 
 .footer-content-lists h4{
     margin: 0 0 30px;
