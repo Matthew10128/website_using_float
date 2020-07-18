@@ -84,7 +84,7 @@ header{
  }
 
  .mainbanner_bgimage{
-     background: url("../Images/homepicture.png") no-repeat center top;
+     background: url("../images/homepicture.png") no-repeat center top;
      background-size: cover;
      height: 700px;
      position: absolute;
@@ -137,7 +137,7 @@ header{
 
 .school-content > li{
     margin: 10px;
-    list-style-image: url("../Images/tick.png");
+    list-style-image: url("../images/tick.png");
     text-align: left;
 }
 
@@ -182,13 +182,14 @@ header{
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .2);
 }
 
+
 .tiles-content-playing::before{
     content: "";
     position: absolute;
     left:0;
     z-index: -1;
     height: 285px;
-    background-image: url("../Images/playing.png");
+    background-image: url("../images/playing.png");
     width: 278px;
 }
 
@@ -216,7 +217,7 @@ header{
     left:0;
     z-index: -1;
     height: 285px;
-    background-image: url("../Images/teaching.png");
+    background-image: url("../images/teaching.png");
     width: 278px;
 }
 
@@ -242,7 +243,7 @@ header{
     left:0;
     z-index: -1;
     height: 285px;
-    background-image: url("../Images/reading.png");
+    background-image: url("../images/reading.png");
     width: 278px;
 }
 
@@ -270,7 +271,7 @@ header{
     left:0;
     z-index: -1;
     height: 285px;
-    background-image: url("../Images/playing.png");
+    background-image: url("../images/playing.png");
     width: 278px;
 }
 
@@ -342,7 +343,7 @@ header{
 }
 
 .footer-content{
-    background: url("../Images/footerbg.png");
+    background: url("../images/footerbg.png");
 }
 
 .footer-content-lists{
@@ -386,16 +387,16 @@ header{
     margin-right: 15px;
     width: 36px;
     height: 36px;
-    background: url("../Images/facebook.png"); 
+    background: url("../images/facebook.png"); 
 }
 
 
 .social-icons a.twitter{
-    background: url("../Images/twitter.png"); 
+    background: url("../images/twitter.png"); 
 }
 
 .social-icons a.youtube{
-    background: url("../Images/youtube.png"); 
+    background: url("../images/youtube.png"); 
 }
 
 
@@ -521,7 +522,7 @@ header{
     }
 
     .tiles-content-playing::before{
-           width: 20px;
+           width: 118px;
     }
 
     .tiles-content-reading{
@@ -611,14 +612,6 @@ header{
          text-align: left;
       }
 
-      .middlesection-row2{
-          float:left;
-          width:75%;
-      }
-
-      .middlesection-row1{
-          width:75%;
-      }
       
       .footer-content-lists{
           padding-left: 19px;
