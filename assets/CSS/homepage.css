@@ -25,7 +25,7 @@ header{
 }
 
 .contacts-livechat{
-    text-decoration: underline;
+    border-bottom: 2px solid #FFFFFF;
 }
 
 /* Header Styles End Here */
@@ -74,7 +74,7 @@ header{
  }
 
  .mainbanner_bgimage .bgcolor{
-     background-color: rgba(0, 151, 77, 0.75);
+     background-color: #00974dbf;
      position: absolute;
      top: 0;
      left: 0;
@@ -97,6 +97,7 @@ header{
 
  .mainbanner_message{
      text-align: center;
+     margin-bottom: 30px;
  }
 
  .mainbanner_message-header{
@@ -127,12 +128,15 @@ header{
      min-height: 300px;
      margin: 0 12px;
      border-radius: 10px;
-     padding: 10px;
  }
 
  .school{
      text-align: center;
      padding-top: 32px;
+ }
+
+ .mobile-school-links{
+     display:none;
  }
 
 .school-content > li{
@@ -157,30 +161,30 @@ header{
 /* Learn more section styles start here */
 
 
-.middlesection-rows{
-    width:1080px;
-    max-width:100%;
-    margin: 0 auto;
-    text-align: center;
-}
+
 
 .middlesection-header{
     margin: 88px 0 42px;
+}
+.middlesection-rows{
+    margin-bottom: 170px;
 }
 
 
 
 /* Tile Content Starts Here */
 
+
 .tiles{
     background-color: white;
     width: calc(50% - 25px);
     float: left;
     margin:0 0 25px 25px;
-    padding:0;
+    padding-right:4px;
     height:285px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, .2);
 }
+
 
 
 .tiles-content-playing::before{
@@ -330,7 +334,7 @@ header{
   margin: 0;
   line-height: 15px;
   display: inline-block;
-  padding: 35px 32px;
+  padding: 15px 32px;
   border-right: 2px solid #A1CEB8;
 }
 
@@ -425,6 +429,11 @@ header{
           padding: 15px;
       }
 
+      .mainbanner_bgimage{
+        clip-path: ellipse(82% 45% at 50% 30%);
+      }
+
+
       .mainbanner_menu-links{
           display: none;
           position: absolute;
@@ -444,6 +453,11 @@ header{
         text-align: left;
         position: relative;
         left:-15px;
+     }
+
+     .mainbanner_message-header{
+         line-height: 30px;
+         margin: 98px 0 130px; 
      }
     
 
@@ -499,10 +513,26 @@ header{
     }
 
 
+    .mobile-school-links{
+        display:block;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+
+    .mobile-school-links > span:nth-child(2){
+        padding: 0 20px;
+    }
+
+    .mobile-school-links > span:first-child{
+        color: #00974D;
+        border-bottom: 2px solid #00974D;
+    }
+
+
       .preschool{
-         width: 75%;
-         position: relative;
-         left: 55px;
+         width: 80vw;
+         margin-left: 39px;
          margin-top: -15px;
       }
       
@@ -518,53 +548,65 @@ header{
       .middlesection{
           max-width: 100%;
       }
-
+  
+     .middlesection-header{
+         line-height: 40px;
+         margin: 32px 0px 32px;
+     }
      
 
+    .middlesection-rows{
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .middlesection-row1{
+        display: block;
+    }
+
+    .middlesection-row2{
+        display: block;
+    }
+
+    .tiles{
+        float: none;
+        width: 95vw;
+        padding: 0;
+        margin: 0 0 16px 0;
+    }
+
+   
     .tiles-content-playing{
-        padding-left:132px;
+        padding-left: 132px;
     }
-
-    .tiles-content-playing > a{
-        position: relative;
-        bottom: 15px;
-    }
-
     .tiles-content-playing::before{
-           width: 118px;
+        width: 118px;
     }
+
 
     .tiles-content-reading{
-        padding-left:132px;
+        padding-left: 132px;
+    }
+    .tiles-content-reading::before{
+        width: 118px;
+    }
+
+    .tiles-content-teaching{
+        padding-left: 132px;
+    }
+    .tiles-content-teaching::before{
+      width: 118px;
     }
 
 
-    .tiles-content-reading::before{
+    .tiles-content-prospectus{
+        padding-left: 132px;
+    }
+    .tiles-content-prospectus::before{
         width: 118px;
- }
-
- .tiles-content-teaching{
-    padding-left:132px;
-}
+    }
 
 
-   .tiles-content-teaching::before{
-    width: 118px;
- }
-
-
- .tiles-content-prospectus{
-    padding-left:132px;
-}
-
-.tiles-content-prospectus > a{
-    position: relative;
-    bottom: 15px;
-}
-
-.tiles-content-prospectus::before{
-       width: 118px;
-}
 
 
 
@@ -572,6 +614,11 @@ header{
  .footer-content-lists > div{
     float: none;
     width: 100%
+ }
+
+ .footer-header > h3{
+      border-right: none;
+      line-height: 10px;
  }
 
 
@@ -593,6 +640,10 @@ header{
       width: 100%;
   }
 
+  .admissions > ul{
+    padding-bottom: 50px;
+  }
+
   .contact{
       margin-top: 20px;
   }
@@ -612,14 +663,106 @@ header{
 
 
 
-  @media screen and (min-width: 701px) and (max-width:1055px){
+  @media screen and (min-width: 701px) and (max-width:1160px){
       .mainbanner_menu-links{
-          display: inline-block;
+          display: none;
       }
       .mainbanner_menu-links > li{
          padding: 0;
          text-align: left;
       }
+
+      .nav-toggle{
+        display: none;
+    }
+    
+    
+    .nav-toggle:checked ~ ul{
+        display: block;
+        background-color: #00974D;
+    }
+    
+    .nav-toggle-label{
+        position: absolute;
+        top:15px;
+        right:15px;
+        padding:10px;
+    }
+    
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after{
+        display: block;
+        background: white;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position: relative;
+    }
+    
+    
+    
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after{
+        content: "";
+        position: absolute;
+    }
+    
+    
+    .nav-toggle-label span::before{
+        bottom:7px;
+    }
+    
+    .nav-toggle-label span::after{
+        top:7px;
+    }
+
+
+      .mobile-school-links{
+          display: none;
+      }
+
+      
+
+
+      .tiles{
+        float: none;
+        width: 100vw;
+        padding: 0;
+    }
+
+   
+    .tiles-content-playing{
+        padding-left: 296px;
+    }
+    .tiles-content-playing::before{
+        width: 275px;
+    }
+
+
+    .tiles-content-reading{
+        padding-left: 296px;
+    }
+    .tiles-content-reading::before{
+        width: 275px;
+    }
+
+    .tiles-content-teaching{
+        padding-left: 296px;
+    }
+    .tiles-content-teaching::before{
+      width: 275px;
+    }
+
+
+    .tiles-content-prospectus{
+        padding-left: 296px;
+    }
+    .tiles-content-prospectus::before{
+        width: 275px;
+    }
+
+
 
       
       .footer-content-lists{
@@ -665,3 +808,5 @@ header{
   /* Media Styles for desktop end here */
 
 /* Media Styles End here */
+
+
