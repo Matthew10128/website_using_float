@@ -1,0 +1,62 @@
+/* Mainbanner flex styles start here */
+
+.mainbanner_menu{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.mainbanner_menu-links{
+    padding-left: 260px;
+}
+
+
+.mainbanner_menu-links li{
+    padding-left: 20px;
+}
+
+.mainbanner_menu-links li > a {
+     padding: 8px;
+}
+
+/* Mainbanner flex styles end here */
+
+/* School section flex styles start here */
+
+
+.schools{
+    display: flex;
+    flex-direction: row;
+}
+
+.school{
+    width: auto;
+}
+
+/* School section flex styles end here */
+
+/* Learn more section flex styles start here */
+
+.middlesection-row1{
+    display: flex;
+}
+
+.middlesection-row2{
+    display: flex;
+}
+
+.tiles{
+    padding-right: 5px;
+}
+
+.tiles-content-prospectus > a{
+    margin-top: 32px;
+}
+/* Learn more section flex styles end here */
+
+/* Footer flex styles start here */
+
+.footer-content-lists{
+    display: flex;
+}
+
+/* Footer flex styles end here */

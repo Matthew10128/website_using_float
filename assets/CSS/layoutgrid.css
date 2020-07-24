@@ -1,0 +1,90 @@
+/* Mainbanner flex styles start here */
+
+.mainbanner_menu{
+    display: grid;
+}
+
+.mainbanner-logo{
+    grid-row: 1;
+}
+
+.mainbanner_menu-links{
+    grid-row: 1;
+    padding-top: 16px;
+}
+
+
+.mainbanner_menu-links li{
+    padding-left: 20px;
+}
+
+.mainbanner_menu-links li > a {
+     padding: 8px;
+}
+
+/* Mainbanner flex styles end here */
+
+/* School section flex styles start here */
+
+
+.schools{
+    display: grid;
+    grid-template-columns: repeat(3, 345px);
+}
+
+.school{
+    width: auto;
+}
+
+/* School section flex styles end here */
+
+/* Learn more section flex styles start here */
+
+.middlesection-row1{
+    display: grid;
+
+}
+
+.middlesection-row2{
+    display: grid;
+}
+
+.tiles{
+    padding-right: 5px;
+    width: auto;
+}
+
+.playing{
+    grid-row: 1;
+}
+
+.reading{
+    grid-row: 1;
+}
+
+.teaching{
+    grid-row: 1;
+    width: 517px
+}
+
+.prospectus{
+    grid-row: 1;
+}
+
+.tiles-content-prospectus > a{
+    margin-top: 32px;
+}
+/* Learn more section flex styles end here */
+
+/* Footer flex styles start here */
+
+.footer-content-lists{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.footer-content-lists > div{
+    width: 100%;
+}
+
+/* Footer flex styles end here */
