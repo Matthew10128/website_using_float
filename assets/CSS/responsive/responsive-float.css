@@ -38,8 +38,8 @@
    }
 
    .mainbanner_message-header{
-       line-height: 30px;
-       margin: 98px 0 130px; 
+       line-height: 60px;
+       margin: 0 0 130px; 
    }
   
 
@@ -115,6 +115,7 @@
     .preschool{
        width: 100%;
        margin-top: -15px;
+       margin: 0;
     }
     
     .juniorschool{
@@ -165,8 +166,7 @@
   }
 
   .tiles-content-playing > a{
-      width: 100%;
-      margin: 0;
+      margin-top: 20px;
   }
 
 
@@ -404,7 +404,7 @@
 
     .tiles{
         float: none;
-        width: 348px;
+        width: 95vw;
         padding-right: 5px;
         margin: 0 0 16px 0;
     }
@@ -561,8 +561,9 @@
 
       .tiles{
         float: none;
-        width: 100vw;
+        width: 96vw;
         padding: 0;
+        margin-left: 0;
     }
 
    
@@ -571,6 +572,10 @@
     }
     .tiles-content-playing::before{
         width: 275px;
+    }
+
+    .tiles-content-playing > a{
+        margin-top: 0;
     }
 
 
