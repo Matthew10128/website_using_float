@@ -5,17 +5,32 @@
     justify-content: flex-end;
 }
 
-.mainbanner_menu-links{
-    padding-left: 260px;
+.mainbanner-logo{
+    margin-right: 145px;
 }
-
 
 .mainbanner_menu-links li{
     padding-left: 20px;
 }
 
 .mainbanner_menu-links li > a {
-     padding: 8px;
+     padding: 8px 25px 0 0;
+     border-top: none;
+}
+
+.mainbanner_menu-links li{
+    padding-top: 10px;
+    transition: all .1s ease-in;
+    border-top: 2px solid transparent ;
+}
+
+.mainbanner_menu-links li:hover{
+    color: #133525;
+    border-top-color: #133525;
+}
+
+.mainbanner_menu-links li:nth-child(7){
+    border-top: none;
 }
 
 /* Mainbanner flex styles end here */

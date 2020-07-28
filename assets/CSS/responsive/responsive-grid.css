@@ -99,6 +99,12 @@
       margin-bottom: 20px;
   }
 
+  .schools{
+    justify-content: center;
+    grid-template-columns: 16px 2fr 16px;
+}
+
+
 
   .mobile-school-links{
       display:block;
@@ -117,11 +123,13 @@
   }
 
 
-    .preschool{
-       width: 100%;
-       margin-top: -15px;
-    }
-    
+  .preschool{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    grid-column: 2;
+  }
+  
     .juniorschool{
         display: none;    
     }
@@ -151,6 +159,14 @@
       padding-right: 8px;
       margin: 0 0 16px 0;
   }
+
+  .middlesection-row1{
+    justify-content: center;
+}
+
+    .middlesection-row2{
+        justify-content: center;
+    }
 
 
   .playing{
@@ -365,6 +381,12 @@
         margin-bottom: 60px;
     }
 
+    
+    .schools{
+        justify-content: center;
+        grid-template-columns: 16px 2fr 16px;
+    }
+
 
     .mobile-school-links{
         display:block;
@@ -384,8 +406,10 @@
 
 
       .preschool{
+        margin: 0;
         width: 100%;
-         text-align: center;
+        text-align: center;
+        grid-column: 2;
       }
       
       .juniorschool{
@@ -410,6 +434,14 @@
     .middlesection-rows{
         max-width: 100%;
         margin-bottom: 0px;
+    }
+
+    .middlesection-row1{
+        justify-content: center;
+    }
+
+    .middlesection-row2{
+        justify-content: center;
     }
 
     .tiles{
